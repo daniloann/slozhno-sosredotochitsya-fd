@@ -10,5 +10,18 @@
     --title-color: #FFC2E6;
     --text-accent-color: #353430;
     --content-text-color: #353430;
+    --background-color: #FFF1F7;
+    --button-color: #353430;
+    --content-title-color:  #353430;
+  }
+}
+
+.theme-light .lamp {
+  display: none;
+}
+
+@media (prefers-color-scheme: light) {
+  :root:not(.theme-dark) .lamp {
+    display: none;
   }
 }
