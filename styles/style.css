@@ -248,6 +248,7 @@
   border-right: 1px solid var(--button-color);
 }
 
+
 .decorated-zone::after {
   bottom: 10px;
   left: 10px;
