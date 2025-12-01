@@ -12,5 +12,6 @@
   --content-text-color: #F1B2CE;
   --background-color: #000028;
   --button-color: #FF0070;
+  --button-color-hover: rgba(255, 0, 112, 0.4);
   --content-title-color:  #FF0070;
 }

@@ -30,7 +30,6 @@
   display: flex;
   align-items: center;
   gap: 10px; 
-  top: 2opx;
 }
 
 .lamp::after {
@@ -71,8 +70,7 @@
 }
 
 .header__theme-menu-button:hover {
-  border: 1px solid var(--button-color); 
-  opacity: 0.4;
+  border: 1px solid var(--button-color-hover); 
 }
 
 .header__theme-menu-button:focus-visible {
@@ -81,7 +79,7 @@
 }
 
 .header__theme-menu-button_active {
-  border-color: var(--accent-color);
+  border-color: var(--button-color);
   pointer-events: none;
 }
 
@@ -135,7 +133,6 @@
   font-size: 18px;
   line-height: 23.4px;
 }
-
 
 .content-item__title {
   font-weight: 700;

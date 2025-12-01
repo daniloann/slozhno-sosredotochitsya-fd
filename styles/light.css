@@ -12,6 +12,7 @@
     --content-text-color: #353430;
     --background-color: #FFF1F7;
     --button-color: #353430;
+    --button-color-hover: rgba(50, 49, 45, 0.4);
     --content-title-color:  #353430;
   }
 }
